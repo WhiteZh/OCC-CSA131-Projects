@@ -1,0 +1,5 @@
+s1 = set(input("Enter elements for list1 (separated by spaces): ").split())
+s2 = set(input("Enter elements for list2 (separated by spaces): ").split())
+print(f"Common elements: {s1 & s2}")
+print(f"Unique elements in list1: {s1 - (s1 & s2)}")
+print(f"Unique elements in list1: {s2 - (s2 & s1)}")
